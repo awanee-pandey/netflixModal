@@ -1,0 +1,148 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  min-height: 100vh;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  color:rgb(226, 219, 219);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul,
+li{
+    list-style: none;
+}
+
+.modal{
+    background-color: rgb(15, 15, 15);
+    border-radius: 6px;
+}
+
+.modal__image img{
+    border-radius:6px 6px 0 0;
+}
+
+.modal__content{
+    padding:20px 15px;
+}
+
+.modal__btns {
+    display: flex;
+  }
+  
+  .modal__btn {
+    margin-right: 8px;
+  }
+
+  .modal__btn:nth-of-type(5) {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 0px;
+  }
+
+  .modal__btn a {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgba(255, 255, 255, 0.582);
+    background: rgba(255, 255, 255, 0.062);
+  }
+
+  .modal__btn a ion-icon {
+    font-size: 22px;
+  }
+  
+  .modal__btn:nth-of-type(2) a ion-icon {
+    --ionicon-stroke-width: 35px;
+  }
+  
+  .modal__btn:nth-of-type(1) a {
+    color: #111;
+    background: #fff;
+  }
+
+  .modal__desc {
+    margin: 20px 0;
+  }
+  
+  .modal__desc span {
+    margin-right: 8px;
+  }
+  
+  .modal__desc span:nth-of-type(1) {
+    color: #46d369;
+  }
+  
+  .modal__desc span:nth-of-type(2) {
+    border: 1px solid #e7e7e7;
+    padding: 1px 5px;
+  }
+  
+  .modal__genre {
+    display: flex;
+  }
+  
+  .modal__genre li {
+    margin-right: 10px;
+    color: #e7e7e7;
+  }
+  
+  .modal__genre li::after {
+    content: '\2022';
+    padding-left: 10px;
+    font-size: 18px;
+    color: #e7e7e78f;
+  }
+  
+  .modal__desc {
+    margin: 20px 0;
+  }
+  
+  .modal__desc span {
+    margin-right: 8px;
+  }
+  
+  .modal__desc span:nth-of-type(1) {
+    color: #46d369;
+  }
+  
+  .modal__desc span:nth-of-type(2) {
+    border: 1px solid #e7e7e7;
+    padding: 1px 5px;
+  }
+  
+  .modal__genre {
+    display: flex;
+  }
+  
+  .modal__genre li {
+    margin-right: 10px;
+    color: #e7e7e7;
+  }
+  
+  .modal__genre li::after {
+    content: '\2022';
+    padding-left: 10px;
+    font-size: 18px;
+    color: #e7e7e78f;
+  }
+  
+  .modal__genre li:nth-of-type(3):after {
+    content: '';
+  }
